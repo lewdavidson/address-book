@@ -8,7 +8,70 @@
     <meta charset="utf-8">
     <title>Address Book</title>
   </head>
-  <body>
-    <h1>Everybody!</h1>
+  <body class="wonderland">
+    <div class="container">
+      <h1>Internet Rolodex</h1>
+
+      <form id="new-entry">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input id="name" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="address">Address (physical):</label>
+          <input id="address" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone (home):</label>
+          <input id="phone" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input id="email" type="text" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+
+      <div class="row">
+        <div class="col-md-4 card text-white bg-dark">
+          <div class="card-header">
+            <h2>Contact List</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>here's stuff</li>
+              <li>here's other</li>
+              <li>stuff</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-8 card bg-light">
+          <div class="card-header">
+            <h2>Informationalisticality</h2>
+          </div>
+          <div class="card-body">
+
+            <div class="card bg-secondary">
+
+              <p class="name-display">
+                Name:
+              </p>
+              <p class="address-display">
+                Address:
+              </p>
+              <p class="phone-display">
+                Phone:
+              </p>
+              <p class="email-display">
+                Email:
+              </p>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>
